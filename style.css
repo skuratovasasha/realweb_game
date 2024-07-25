@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #70c5ce;
+}
+
+.game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    background-color: #70c5ce;
+}
+
+canvas {
+    display: block;
+    background: url('https://cdn.pixabay.com/photo/2016/11/21/15/52/background-1846698_960_720.png') repeat-x;
+}
